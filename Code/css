@@ -1,0 +1,117 @@
+* {
+  font-family:fantasy;
+  background-color: FloralWhite;
+}
+
+/* Top Section */
+
+header {
+  text-align: center;
+}
+
+button {
+  margin: 0 10px;
+  border: 1px solid lightgray;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: inline-block;
+  border-radius: 20px;
+  color: white;
+  margin-bottom: 20px;
+  background-color: deepskyblue;
+}
+
+li {
+  margin: 0 10px;
+  border: 1px solid lightgray;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: inline-block;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  background-color: deepskyblue;
+}
+
+li a {
+  text-decoration: none;
+  background-color: deepskyblue;
+  color: white;
+}
+
+/* About section */
+
+.profilepic {
+  margin-left: 20%;
+  border-radius: 20px;
+}
+
+body section {
+  display: flex;
+}
+
+.bodytext {
+  margin-left: 2%;
+  margin-right: 20%;
+}
+
+/* Projects */
+
+h3 {
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 0%;
+}
+
+
+.flexbox {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: -1%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.flexbox div {
+  margin: 1%;
+}
+
+.flexbox div img{
+    border-radius: 10px;
+}
+
+.flexbox img {
+  max-width:100%;
+}
+
+.boxtext {
+  margin-top: 6%;
+  margin-left: 2%;
+  text-align: center;
+}
+
+h4 {
+  font-size:18px;
+}
+
+footer {
+  text-align: center;
+}
+
+/* Accesability Stuff */
+
+@media (max-width: 800px) {
+  
+  .flexbox {
+    flex-direction: column;
+  }
+  
+  .profilepic {
+    max-width: 10%;
+    height: 10%;
+  }
+}
